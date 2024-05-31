@@ -28,6 +28,7 @@ Sepolia API Anahtarı Alımı
 Sepolia (Ethereum Testnet) ağı için bir API anahtarı alın. Infura veya Alchemy kullanabilirsiniz:
 
 Infura: https://sepolia.infura.io/v3/{YOUR_API_KEY}
+
 Alchemy: https://eth-sepolia.g.alchemy.com/v2/{YOUR_API_KEY}
 
 
@@ -48,6 +49,7 @@ state_config.json
 
 Yerel Node'un Çalıştırılması
 Yerel node'u çalıştırmak için aşağıdaki komutu kullanın:
+```sh
 fuel-core run \
 --service-name {ANY_SERVICE_NAME} \
 --keypair {P2P_SECRET} \
@@ -63,8 +65,9 @@ fuel-core run \
 --relayer-v2-listening-contracts 0x01855B78C1f8868DE70e84507ec735983bf262dA \
 --relayer-da-deploy-height 5827607 \
 --relayer-log-page-size 2000
-
+```
 Bağlanma
 Yerel node'a bir tarayıcı cüzdanı ile bağlanmak için aşağıdaki ağı kullanın:
-
+```sh
 http://0.0.0.0:4000/graphql
+```
