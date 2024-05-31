@@ -37,7 +37,7 @@ fuel-core-keygen new --key-type peering
 **Yapılandırma Dosyaları**
 **Gerekli yapılandırma dosyaları bu depoda sağlanmıştır:**
 
-chain_config.json
+[chain_config.json](https://github.com/eftay17/fuel_network/blob/main/chain_config.json)
 metadata.json
 state_config.json
 
