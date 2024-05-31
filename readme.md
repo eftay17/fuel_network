@@ -43,7 +43,7 @@ fuel-core-keygen new --key-type peering
 
 *[state_config.json](https://github.com/eftay17/fuel_network/blob/main/state_config.json)
 
-
+*[Buradan indirip sunucunuza atın](https://github.com/FuelLabs/fuel-core/raw/9fddeccb4d112c148f6793bc3d21131a13778a25/bin/fuel-core/chainspec/testnet/state_transition_bytecode.wasm)
 
 **Yerel Node'un Çalıştırılması**
 Yerel node'u çalıştırmak için aşağıdaki komutu kullanın:
