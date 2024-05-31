@@ -15,6 +15,7 @@ Fuel araç zincirini yüklemek için aşağıdaki komutu çalıştırın:
 
 ```sh
 curl https://install.fuel.network | sh
+```
 
 Testnet Araç Zincirinin Yüklenmesi
 Testnet araç zincirini yüklemek için aşağıdaki komutları çalıştırın:
@@ -34,7 +35,7 @@ P2P Anahtarı Oluşturma
 Yeni bir P2P anahtarı oluşturmak için aşağıdaki komutu çalıştırın:
 ```sh
 fuel-core-keygen new --key-type peering
-
+```
 Anahtarınızı güvenli bir yerde saklayın.
 
 Yapılandırma Dosyaları
