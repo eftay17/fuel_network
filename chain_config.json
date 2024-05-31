@@ -1,5 +1,3 @@
-
-```json
 {
   "chain_name": "Upgradable Testnet",
   "consensus_parameters": {
@@ -158,103 +156,116 @@
           "k256": {
             "LightOperation": {
               "base": 282,
-              "units_per_gas": 15
+              "units_per_gas": 3
+            }
+          },
+          "ldc": {
+            "LightOperation": {
+              "base": 45,
+              "units_per_gas": 65
             }
           },
           "logd": {
             "LightOperation": {
-              "base": 2,
+              "base": 1134,
               "units_per_gas": 2
             }
           },
-          "lqcm": {
+          "mcl": {
+            "LightOperation": {
+              "base": 3,
+              "units_per_gas": 523
+            }
+          },
+          "mcli": {
+            "LightOperation": {
+              "base": 3,
+              "units_per_gas": 526
+            }
+          },
+          "mcp": {
+            "LightOperation": {
+              "base": 3,
+              "units_per_gas": 448
+            }
+          },
+          "mcpi": {
             "LightOperation": {
               "base": 7,
-              "units_per_gas": 19
+              "units_per_gas": 585
             }
           },
-          "lqop": {
+          "meq": {
             "LightOperation": {
-              "base": 8,
-              "units_per_gas": 25
+              "base": 11,
+              "units_per_gas": 1097
             }
           },
-          "lqml": {
+          "retd_contract": {
             "LightOperation": {
-              "base": 9,
-              "units_per_gas": 37
-            }
-          },
-          "lqdv": {
-            "LightOperation": {
-              "base": 15,
-              "units_per_gas": 61
-            }
-          },
-          "lqmd": {
-            "LightOperation": {
-              "base": 28,
-              "units_per_gas": 194
-            }
-          },
-          "lqam": {
-            "LightOperation": {
-              "base": 21,
-              "units_per_gas": 136
-            }
-          },
-          "lqmm": {
-            "LightOperation": {
-              "base": 26,
-              "units_per_gas": 180
+              "base": 1086,
+              "units_per_gas": 2
             }
           },
           "s256": {
             "LightOperation": {
-              "base": 218,
-              "units_per_gas": 19
+              "base": 45,
+              "units_per_gas": 3
+            }
+          },
+          "scwq": {
+            "HeavyOperation": {
+              "base": 30375,
+              "gas_per_unit": 28628
+            }
+          },
+          "smo": {
+            "LightOperation": {
+              "base": 64196,
+              "units_per_gas": 1
             }
           },
           "srwq": {
-            "LightOperation": {
-              "base": 52,
-              "units_per_gas": 11
+            "HeavyOperation": {
+              "base": 262,
+              "gas_per_unit": 249
             }
           },
-          "trv": {
-            "LightOperation": {
-              "base": 24301,
-              "units_per_gas": 5
+          "swwq": {
+            "HeavyOperation": {
+              "base": 28484,
+              "gas_per_unit": 26613
             }
           },
-          "troo": {
+          "contract_root": {
             "LightOperation": {
-              "base": 245,
-              "units_per_gas": 66
+              "base": 45,
+              "units_per_gas": 1
+            }
+          },
+          "state_root": {
+            "HeavyOperation": {
+              "base": 350,
+              "gas_per_unit": 176
+            }
+          },
+          "new_storage_per_byte": 63,
+          "vm_initialization": {
+            "LightOperation": {
+              "base": 1645,
+              "units_per_gas": 14
             }
           }
         }
       },
-      "contract": {
-        "Balance": {
-          "Unit": "beaker_64"
-        },
-        "Bond": {
-          "Unit": "gwei"
-        },
-        "Weight": {
-          "Unit": "gwei"
-        },
-        "MaxMessages": {
-          "Value": 100
-        },
-        "MaxLocks": {
-          "Value": 256
-        },
-        "LockDelay": {
-          "Value": 0
-        }
-      }
+      "base_asset_id": "0000000000000000000000000000000000000000000000000000000000000000",
+      "block_gas_limit": 30000000,
+      "privileged_address": "0000000000000000000000000000000000000000000000000000000000000000"
+    }
+  },
+  "consensus": {
+    "PoA": {
+      "signing_key": "f65d6448a273b531ee942c133bb91a6f904c7d7f3104cdaf6b9f7f50d3518871"
     }
   }
 }
