@@ -21,7 +21,7 @@ Testnet araç zincirini yüklemek için aşağıdaki komutları çalıştırın:
 ```sh
 fuelup toolchain install testnet
 fuelup default testnet
-
+```
 
 Sepolia API Anahtarı Alımı
 Sepolia (Ethereum Testnet) ağı için bir API anahtarı alın. Infura veya Alchemy kullanabilirsiniz:
