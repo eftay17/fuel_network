@@ -2,11 +2,6 @@
 
 Bu depo, yerel bir Fuel node'unu Testnet'e bağlı olarak çalıştırmak için gerekli olan tüm adımları ve yapılandırma dosyalarını içermektedir.
 
-## Gereksinimler
-
-- `curl` ve `wget` komutları
-- `fuelup` aracı
-
 ## Kurulum
 
 ### Fuel Araç Zincirinin Yüklenmesi
@@ -17,14 +12,14 @@ Fuel araç zincirini yüklemek için aşağıdaki komutu çalıştırın:
 curl https://install.fuel.network | sh
 ```
 
-Testnet Araç Zincirinin Yüklenmesi
+**Testnet Araç Zincirinin Yüklenmesi**
 Testnet araç zincirini yüklemek için aşağıdaki komutları çalıştırın:
 ```sh
 fuelup toolchain install testnet
 fuelup default testnet
 ```
 
-Sepolia API Anahtarı Alımı
+**Sepolia API Anahtarı Alımı**
 Sepolia (Ethereum Testnet) ağı için bir API anahtarı alın. Infura veya Alchemy kullanabilirsiniz:
 
 Infura: https://sepolia.infura.io/v3/{YOUR_API_KEY}
@@ -32,22 +27,22 @@ Infura: https://sepolia.infura.io/v3/{YOUR_API_KEY}
 Alchemy: https://eth-sepolia.g.alchemy.com/v2/{YOUR_API_KEY}
 
 
-P2P Anahtarı Oluşturma
+**P2P Anahtarı Oluşturma**
 Yeni bir P2P anahtarı oluşturmak için aşağıdaki komutu çalıştırın:
 ```sh
 fuel-core-keygen new --key-type peering
 ```
-Anahtarınızı güvenli bir yerde saklayın.
+**Anahtarınızı güvenli bir yerde saklayın.**
 
-Yapılandırma Dosyaları
-Gerekli yapılandırma dosyaları bu depoda sağlanmıştır:
+**Yapılandırma Dosyaları**
+**Gerekli yapılandırma dosyaları bu depoda sağlanmıştır:**
 
 chain_config.json
 metadata.json
 state_config.json
 
 
-Yerel Node'un Çalıştırılması
+**Yerel Node'un Çalıştırılması**
 Yerel node'u çalıştırmak için aşağıdaki komutu kullanın:
 ```sh
 fuel-core run \
@@ -66,7 +61,7 @@ fuel-core run \
 --relayer-da-deploy-height 5827607 \
 --relayer-log-page-size 2000
 ```
-Bağlanma
+**Bağlanma**
 Yerel node'a bir tarayıcı cüzdanı ile bağlanmak için aşağıdaki ağı kullanın:
 ```sh
 http://0.0.0.0:4000/graphql
